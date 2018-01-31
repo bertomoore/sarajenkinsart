@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Sara Jenkins Art</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet" />
+  <link href="../../static/style.css" rel="stylesheet" type="text/css" />
+
+  </head>
+  <body id="body">
+    <div id="banner-image">
+      <div id="banner-transition"></div>
+    </div>
+    <div id="header">
+      <span class="header-link"><a href="/">Home</a><span class="header-link icon">&#9776;</span></span>
+      <span class="header-link"><a href="#">Artwork</a></span>
+      <span class="header-link"><a href="/statement/">Statement</a></span>
+      <span class="header-link"><a href="/cv/">CV</a></span>
+      <span class="header-link"><a href="/contact/">Contact</a></span>
+    </div><!-- #header -->
+
+    <h1>Gallery</h1>
+
+    <div id="art-handler">
+      <form>
+        <select id="art-filter">
+          <option value="all">        All artworks </option>
+          <option value="painting">   Paintings    </option>
+          <option value="drawing">    Drawings     </option>
+          <option value="photograph"> Photographs  </option>
+          <option value="collage">    Collages     </option>
+          <option value="mixed">      Mixed media  </option>
+        </select>
+      </form>
+    </div>
+
+    <div id="artwork">
+
+        <span class='art' id='art1'><img src='https://img00.deviantart.net/8b95/i/2017/200/5/9/diaphan_by_udavrajati-daqjfmu.jpg' class='thumbnail' /><div class='active-art-container'><div class='active-art'><img class="hover-img" src='https://img00.deviantart.net/8b95/i/2017/200/5/9/diaphan_by_udavrajati-daqjfmu.jpg' /><cite>Diaphan</cite></div></div></span>
+
+        <span class='art' id='art2'><img src='https://img00.deviantart.net/d6dd/i/2017/155/4/d/persona__defining_attitude_by_udavrajati-db053re.jpg' class='thumbnail' /><div class='active-art-container'><div class='active-art'><img class="hover-img" src='https://img00.deviantart.net/d6dd/i/2017/155/4/d/persona__defining_attitude_by_udavrajati-db053re.jpg' /><cite>Persona: Defining Attitude</cite></div></div></span>
+        
+        <span class='art' id='art3'><img src='https://img00.deviantart.net/0385/i/2017/155/3/1/cursed_by_udavrajati-db04y8m.jpg' class='thumbnail' /><div class='active-art-container'><div class='active-art'><img class="hover-img" src='https://img00.deviantart.net/0385/i/2017/155/3/1/cursed_by_udavrajati-db04y8m.jpg' /><cite>Cursed</cite></div></div></span>
+        
+        <span class='art' id='art4'><img src='https://img00.deviantart.net/0679/i/2017/235/a/d/persona__desires_by_udavrajati-dbl3tib.jpg' class='thumbnail' /><div class='active-art-container'><div class='active-art'><img class="hover-img" src='https://img00.deviantart.net/0679/i/2017/235/a/d/persona__desires_by_udavrajati-dbl3tib.jpg' /><cite>Persona: Desires</cite></div></div></span>
+        
+        <span class='art' id='art5'><img src='https://img00.deviantart.net/8a82/i/2017/198/3/d/mudanas_by_udavrajati-daopz9f.jpg' class='thumbnail' /><div class='active-art-container'><div class='active-art'><img class="hover-img" src='https://img00.deviantart.net/8a82/i/2017/198/3/d/mudanas_by_udavrajati-daopz9f.jpg' /><cite>Mudanas</cite></div></div></span>
+        
+        <span class='art' id='art6'><img src='https://img00.deviantart.net/ecf5/i/2017/198/c/c/haunted_by_udavrajati-daluj2j.jpg' class='thumbnail' /><div class='active-art-container'><div class='active-art'><img class="hover-img" src='https://img00.deviantart.net/ecf5/i/2017/198/c/c/haunted_by_udavrajati-daluj2j.jpg' /><cite>Haunted</cite></div></div></span>
+        
+        <span class='art' id='art7'><img src='https://img00.deviantart.net/b299/i/2017/155/d/f/hieros_by_udavrajati-d9t03ts.jpg' class='thumbnail' /><div class='active-art-container'><div class='active-art'><img class="hover-img" src='https://img00.deviantart.net/b299/i/2017/155/d/f/hieros_by_udavrajati-d9t03ts.jpg' /><cite>Hieros</cite></div></div></span>
+        
+        <span class='art' id='art8'><img src='https://img00.deviantart.net/74b4/i/2018/021/b/2/fractured_enlightenment_by_udavrajati-d98rmdw.jpg' class='thumbnail' /><div class='active-art-container'><div class='active-art'><img class="hover-img" src='https://img00.deviantart.net/74b4/i/2018/021/b/2/fractured_enlightenment_by_udavrajati-d98rmdw.jpg' /><cite>Fractal Enlightment</cite></div></div></span>
+        
+        <span class='art' id='art9'><img src='https://img00.deviantart.net/b083/i/2017/296/a/e/first_light_by_udavrajati-d8hp8fv.jpg' class='thumbnail' /><div class='active-art-container'><div class='active-art'><img class="hover-img" src='https://img00.deviantart.net/b083/i/2017/296/a/e/first_light_by_udavrajati-d8hp8fv.jpg' /><cite>First light</cite></div></div></span>
+        
+        <span class='art' id='art10'><img src='https://img00.deviantart.net/d5e7/i/2017/105/8/d/cccs__stone_cabin__sandia_mountains_by_udavrajati-db5xj0a.jpg' class='thumbnail' /><div class='active-art-container'><div class='active-art'><img class="hover-img" src='https://img00.deviantart.net/d5e7/i/2017/105/8/d/cccs__stone_cabin__sandia_mountains_by_udavrajati-db5xj0a.jpg' /><cite>CCC's Stone Cabin, Sandia Mountains</cite></div></div></span>
+        
+        <span class='art' id='art11'><img src='https://img00.deviantart.net/014d/i/2014/335/5/2/arid_places_by_udavrajati-d87arnl.jpg' class='thumbnail' /><div class='active-art-container'><div class='active-art'><img class="hover-img" src='https://img00.deviantart.net/014d/i/2014/335/5/2/arid_places_by_udavrajati-d87arnl.jpg' /><cite>Arid Places</cite></div></div></span>
+        
+        <span class='art' id='art12'><img src='https://img00.deviantart.net/aeab/i/2014/167/1/5/balloons_by_udavrajati-d7fk8bo.jpg' class='thumbnail' /><div class='active-art-container'><div class='active-art'><img class="hover-img" src='https://img00.deviantart.net/aeab/i/2014/167/1/5/balloons_by_udavrajati-d7fk8bo.jpg' /><cite>Balloons</cite></div></div></span>
+        
+        <span class='art' id='art13'><img src='https://img00.deviantart.net/7ebb/i/2017/105/3/9/jicarilla_schoolhouse_by_udavrajati-db5xclq.jpg' class='thumbnail' /><div class='active-art-container'><div class='active-art'><img class="hover-img" src='https://img00.deviantart.net/7ebb/i/2017/105/3/9/jicarilla_schoolhouse_by_udavrajati-db5xclq.jpg' /><cite>Jicarilla Schoolhouse</cite></div></div></span>
+        
+        <span class='art' id='art14'><img src='https://img00.deviantart.net/1efe/i/2017/054/3/c/the_trees_by_udavrajati-d88bqua.jpg' class='thumbnail' /><div class='active-art-container'><div class='active-art'><img class="hover-img" src='https://img00.deviantart.net/1efe/i/2017/054/3/c/the_trees_by_udavrajati-d88bqua.jpg' /><cite>The Trees</cite></div></div></span>
+    </div>
+<script src="../../static/index.js"></script>
+  </body>
+</html>
